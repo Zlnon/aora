@@ -55,7 +55,7 @@ const Home = () => {
             <Text className="text-gray-100 text-lg font-pregular mb-3">
               Latest Videos
             </Text>
-            <Trending posts={latestPosts ?? []} />
+            <Trending posts={latestPosts} />
           </View>
         )}
         ListEmptyComponent={() => (
